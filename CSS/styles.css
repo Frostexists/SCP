@@ -34,3 +34,60 @@ h2 {
 h3 {
     font-size: 1.2rem;
 }
+
+/* Buttons */
+
+.btn {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border: 0;
+    border-radius: 8px;
+    background: var(--color-accent);
+    color: #ffffff;
+}
+
+/* Grids */
+
+.grid {
+    display: grid;
+}
+
+@media screen and (min-width: 768px) {
+    .grid--1x2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .grid--1x3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Hero */
+
+.hero {
+    text-align: center;
+}
+
+.logo {
+    width: 37px;
+    height: 35px;
+    border-radius: 80px;
+    margin-top: 30px;
+}
+
+.hero-img {
+    width: 308px;
+    height: 113px;
+}
+
+.hero-heading {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.hero-text {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
