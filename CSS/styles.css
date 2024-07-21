@@ -5,3 +5,32 @@
     --color-heading: #000;
     --color-body: #000;
 }
+
+html {
+    font-size: 62.5%;
+}
+
+/* TODO: Change the body font-size */
+
+body {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    color: var(--color-body);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--color-heading);
+}
+
+h1 {
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
