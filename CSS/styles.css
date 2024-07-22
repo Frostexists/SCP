@@ -91,3 +91,111 @@ h3 {
     margin-top: 30px;
     margin-bottom: 20px;
 }
+
+/* Features */
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #d3d3d3;
+    max-width: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;        
+    border-radius: 5px;
+    width: 300px;
+}
+
+.item > img {
+    width: 153px;
+    height: 123px;
+    object-fit: cover;
+}
+
+.MOTO-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.SCP-heading {
+    margin: 0;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.item .p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.item:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+/* FAQ */
+
+.FAQ {
+    padding: 10px;
+}
+
+.FAQ-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.FAQ-subheading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.faq-container {
+    width: 80%;
+    margin: auto;
+    background-color: #E0DCDC;
+    border-radius: 20px;
+}
+
+.faq-item {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.faq-question {
+    background-color: #f1f1f1;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    margin: 0;
+    /* Remove default margin from <p> */
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+    background-color: #E0DCDC;
+}
+
+.plus {
+    margin-right: 10px;
+    /* Add space between icon and text */
+}
+
+@media (max-width: 600px) {
+    .faq-container {
+        width: 100%;
+    }
+}
