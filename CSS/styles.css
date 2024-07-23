@@ -71,7 +71,7 @@ h3 {
     text-align: center;
 }
 
-.logo {
+.hero .logo {
     width: 37px;
     height: 35px;
     border-radius: 80px;
@@ -228,3 +228,32 @@ h3 {
     text-decoration: none;
     font-size: 1.2rem;
 } /* TODO: Make this a dropdown menu */
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+
+.footer .logo {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 16px 0 16px;
+}
+
+.footer .nav-links {
+    display: flex;
+    gap: 25px;
+    padding-right: 5px;
+}
+
+.footer .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
