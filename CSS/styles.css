@@ -199,13 +199,13 @@ h3 {
     gap: 20px;
     padding: 20px;
     background-color: #d3d3d3;
-    max-width: 300px;
-    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .item{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     gap: 10px;
     padding: 10px;
@@ -214,18 +214,9 @@ h3 {
     width: 300px;
 }
 
-.item > img {
+.item__image {
     width: 153px;
     height: 123px;
-    object-fit: cover;
-}
-
-.MOTO-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
 }
 
 .SCP-heading {
@@ -240,7 +231,112 @@ h3 {
 }
 
 .item:nth-child(2) {
-    flex-direction: row-reverse;
+    flex-direction: row;
+}
+
+.text-tablet {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .item {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin: 0 auto 30px auto;
+    }
+
+    .item__image {
+        width: 578px;
+        height: 290px;
+        margin-top: 20px;
+        border-radius: 13px;
+    }
+    
+    .item:nth-child(2) {
+        flex-direction: column;
+    }
+
+    .SCP-heading {
+        font-size: 1.8rem;
+        margin-bottom: 35px;
+    }
+
+    .item .p {
+        font-size: 1.5rem;
+    }
+
+    .MOTO-text {
+        display: none;
+    }
+
+    .text-tablet {
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .item {
+        flex-direction: row-reverse;
+        width: 850px;
+        align-items: center;
+    }
+    
+    .item__image {
+        width: 900px;
+        height: 300px;
+        margin-top: 20px;
+        border-radius: 13px;
+        padding: 0 80px 0 0;
+    }
+    
+    .item:nth-child(2) {
+        flex-direction: row;
+    }
+
+    .reverse__image {
+        padding: 0 0 0 50px;
+    }
+
+    .text-tablet {
+        font-size: 1.5rem;
+        padding-top: 40px;
+    }
+
+    .SCP-heading {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 1355px) {
+        
+        .item {
+            width: 1200px;
+        }
+
+        .item__image {
+            width: 2500px;
+            height: 290px; 
+            margin-top: 35px;
+            border-radius: 19px;
+            padding: 0 80px 0 0;
+        }
+
+        .reverse__image {
+            padding: 0 0 0 60px;
+        }
+        
+        .text-tablet {
+            font-size: 1.7rem;
+            padding-top: 46px;
+        }
+        
+        .SCP-heading {
+            margin-top: 20px;
+        }
 }
 
 /* FAQ */
