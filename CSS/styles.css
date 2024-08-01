@@ -450,6 +450,7 @@ h3 {
     font-size: 1.5em;
     font-weight: bold;
     margin-top: 13px;
+    margin-bottom: 9px;
 }
 
 .navbar .nav-links {
@@ -462,6 +463,28 @@ h3 {
     text-decoration: none;
     font-size: 1.2rem;
 } /* TODO: Make this a dropdown menu */
+
+@media screen and (min-width: 768px) {
+    
+    .navbar {
+        padding: 5px 1.5rem 3px 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1355px) {
+    
+    .navbar {
+        padding: 1rem 1.5rem 1rem 2.5rem;
+    }
+
+    .navbar .logo {
+        font-size: 1.7rem;
+    }
+
+    .navbar .nav-links a {
+        font-size: 1.5rem;
+    }
+}
 
 /* Footer */
 
