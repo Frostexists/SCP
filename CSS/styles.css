@@ -69,13 +69,14 @@ h3 {
 
 .hero {
     text-align: center;
+    margin-bottom: 5rem;
 }
 
 .hero .logo {
     width: 37px;
     height: 35px;
     border-radius: 80px;
-    margin-top: 30px;
+    margin-top: 4.6rem;
 }
 
 .hero-img {
@@ -85,12 +86,12 @@ h3 {
 }
 
 .hero-heading {
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 4rem;
+    margin-bottom: 3.5rem;
 }
 
 .hero-text {
-    margin-top: 30px;
+    margin-top: 3rem;
 }
 
 .hero .btn {
@@ -102,31 +103,38 @@ h3 {
 }
 
 @media screen and (min-width: 768px) {
+    
+    .hero {
+        margin-bottom: 7rem;
+    }
+
     .hero-img {
         width: 648px;
         height: 250px;
-        margin: 70px 0 50px 0;
+        margin: 5rem 0 5rem 0;
     }
 
     .hero-heading {
-        font-size: 2.7rem;
-        margin-top: 120px;
+        font-size: 3.4rem;
+        margin-top: 10rem;
+        margin-bottom: 1rem;
     }
 
     .hero .logo {
-        width: 60px;
-        height: 60px;
+        width: 80px;
+        height: 80px;
+        margin-top: 9rem;
     }
 
     .hero-text {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
 
     .hero .btn {
-        width: 130px;
-        height: 50px;
+        width: 135px;
+        height: 55px;
         padding: 0 0;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         border-radius: 13px;
     }
 }
@@ -197,10 +205,11 @@ h3 {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 20px;
+    padding: 20px 0;
     background-color: #d3d3d3;
     align-items: center;
-    width: 100%;
+    min-width: 31.9rem;
+    margin-bottom: 3rem;
 }
 
 .item{
@@ -209,7 +218,6 @@ h3 {
     align-items: center;
     gap: 10px;
     padding: 10px;
-    border: 1px solid #ccc;        
     border-radius: 5px;
     width: 300px;
 }
@@ -349,12 +357,12 @@ h3 {
 
 .FAQ-heading {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 3.7rem;
 }
 
 .FAQ-subheading {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 3.7rem;
 }
 
 .faq-container {
@@ -362,6 +370,7 @@ h3 {
     margin: auto;
     background-color: #E0DCDC;
     border-radius: 20px;
+    margin-bottom: 4rem;
 }
 
 .faq-item {
@@ -374,7 +383,7 @@ h3 {
     background-color: #f1f1f1;
     cursor: pointer;
     padding: 10px;
-    font-size: 16px;
+    font-size: 14px;
     margin: 0;
     /* Remove default margin from <p> */
 }
@@ -383,6 +392,7 @@ h3 {
     display: none;
     padding: 10px;
     background-color: #E0DCDC;
+    font-size: 1rem
 }
 
 .plus {
