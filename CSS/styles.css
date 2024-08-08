@@ -146,17 +146,19 @@ h3 {
     }
 
     .hero-heading {
-        font-size: 2.9rem;
+        font-size: 3.9rem;
+        margin-top: 12rem;
+        margin-bottom: 2.5rem;
     }
     
     .hero .logo {
-        width: 70px;
-        height: 70px;
+        width: 95px;
+        height: 95px;
     }
     
     
     .hero-text {
-        font-size: 1.7rem;
+        font-size: 1.9rem;
     }
 
     .hero .btn {
@@ -171,23 +173,29 @@ h3 {
 }
 
 @media screen and (min-width: 1355px) {
+   
+    .hero {
+        margin-bottom: 13rem;
+    }
+   
     .hero-img {
         width: 1000px;
         height: 400px;
     }
 
     .hero-heading {
-        font-size: 3rem;
+        font-size: 4.4rem;
     }
     
     .hero .logo {
-        width: 90px;
-        height: 90px;
+        width: 110px;
+        height: 110px;
+        margin-top: 12rem;
     }
     
     
     .hero-text {
-       font-size: 1.9rem;
+       font-size: 2.1rem;
     }
     
     .hero .btn {
@@ -251,15 +259,15 @@ h3 {
     .item {
         display: flex;
         flex-direction: column;
-        width: 400px;
+        width: 500px;
         margin: 0 auto 30px auto;
     }
 
     .item__image {
-        width: 578px;
-        height: 290px;
-        margin-top: 20px;
-        border-radius: 13px;
+        width: 500px;
+        height: 230px;
+        margin-top: 27px;
+        border-radius: 10px;
     }
     
     .item:nth-child(2) {
@@ -267,12 +275,8 @@ h3 {
     }
 
     .SCP-heading {
-        font-size: 1.8rem;
+        font-size: 2.1rem;
         margin-bottom: 35px;
-    }
-
-    .item .p {
-        font-size: 1.5rem;
     }
 
     .MOTO-text {
@@ -281,6 +285,7 @@ h3 {
 
     .text-tablet {
         display: block;
+        font-size: 1.2rem;
     }
 
 }
@@ -408,14 +413,22 @@ h3 {
 
 @media screen and (min-width: 768px) {
     
+    .FAQ {
+        margin: 3.7rem 0;
+    }
+
     .FAQ-heading {
-        font-size: 1.6rem;
+        font-size: 1.9rem;
     }
 
     .FAQ-subheading {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         margin-bottom: 5rem;
         margin-top: 4rem;
+    }
+
+    .faq-question {
+        font-size: 1.6rem;
     }
 
     .faq-answer {
@@ -425,6 +438,10 @@ h3 {
 
 @media screen and (min-width: 1355px) {
     
+    .FAQ {
+        margin: 5rem 0;
+    }
+
     .FAQ-heading {
         font-size: 1.8rem;
     }
@@ -479,6 +496,15 @@ h3 {
     .navbar {
         padding: 5px 1.5rem 3px 2.5rem;
     }
+
+    .navbar .logo {
+        font-size: 1.7rem;
+        margin: 2rem 0;
+    }
+
+    .navbar .nav-links a {
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (min-width: 1355px) {
@@ -528,11 +554,18 @@ h3 {
 @media screen and (min-width: 768px) {
     
     .footer {
-        padding: 1.2rem 1.5rem 1.2rem 2.5rem;
+        padding: 3rem 1.5rem 1.2rem 3rem;
+        text-align: center;
+    }
+
+    .footer .logo {
+        font-size: 1.8rem;
+        padding-bottom: 1.2rem;
     }
 
     .footer .nav-links a {
-        font-size: 1.2rem;
+        font-size: 1.7rem;
+        padding-bottom: 1.2rem;
     }
 
     .footer .nav-links {
@@ -548,10 +581,12 @@ h3 {
 
     .footer .nav-links a {
         font-size: 1.3rem;
+        padding-bottom: 0;
     }
 
     .footer .logo {
         font-size: 1.4rem;
+        padding-bottom: 0;
     }
     
     .footer .nav-links {
